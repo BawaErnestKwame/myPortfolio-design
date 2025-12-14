@@ -11,10 +11,10 @@ const Hero = () => {
       <div className="flex-1 flex flex-col gap-4">
       
         <div className="">
-          <h2 className="text-xl ml-8 mb-1 md:text-2xl text-gray-600 dark:text-white font-bold">HI, I'M</h2>
+          <h2 className="text-xl ml-6  md:ml-8 mb-1 md:text-2xl text-gray-600 dark:text-white font-bold">HI, I'M</h2>
           <div className="flex items-center gap-4">
           {/* Decorative Line */}
-          <span className="w-1 md:w-2 h-14 md:h-20 bg-gradient-to-b from-[#7D0571] to-[#FA7F05] rounded"></span>
+          <span className="w-2 md:w-4 h-16 md:h-24 bg-gradient-to-b from-[#7D0571] to-[#FA7F05] rounded"></span>
           
           {/* Name */}
           <h1 className="text-4xl md:text-6xl font-extrabold bg-gradient-to-r from-[#7D0571] to-[#FA7F05] bg-clip-text text-transparent">
@@ -24,7 +24,7 @@ const Hero = () => {
         </div>
 
         <p className="text-gray-800 dark:text-gray-300 md:text-lg max-w-xl leading-relaxed">
-          <span className='dark:text-white font-bold text-gray-600'>Web Developer | Ui/Ux Designer | Graphic Designer.</span><br />
+          <span className='dark:text-white font-bold text-gray-600'>Web Developer | UI/UX | Graphic Designer.</span><br />
           I’m a dedicated developer with a strong interest in creating responsive and intuitive web applications. I love solving problems, learning new technologies, and turning creative ideas into functional products.
         </p>
 
@@ -43,7 +43,7 @@ const Hero = () => {
       {/* Right Image Section */}
      <div className="flex-1 flex justify-center md:justify-end relative">
   {/* Gradient shadow behind image */}
-  <div className="absolute hidden md:block inset-0 md:inset-x-60 w-80 h-80 inset-y-22 bg-gradient-to-tr from-[#7D0571] to-[#FA7F05] rounded-full blur-3xl opacity-50 z-0"></div>
+  <div className="absolute inset-20 md:inset-x-60 w-40 h-40 md:w-80 md:h-80 inset-y-22 bg-gradient-to-tr from-[#7D0571] to-[#FA7F05] rounded-full blur-3xl opacity-50 z-0"></div>
 
   {/* Hero image */}
   <img
