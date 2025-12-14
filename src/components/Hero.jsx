@@ -5,7 +5,7 @@ import hero from '../assets/heroimg.png';
 
 const Hero = () => {
   return (
-    <section className="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-24 py-6 md:h-[80vh] md:py-24 gap-8 dark:bg-gray-900 bg-gray-300">
+    <section className="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-24 py-12 md:h-[80vh] md:py-24 gap-8 dark:bg-gray-900 bg-gray-300">
       
       {/* Left Text Section */}
       <div className="flex-1 flex flex-col gap-4">
@@ -43,7 +43,7 @@ const Hero = () => {
       {/* Right Image Section */}
      <div className="flex-1 flex justify-center md:justify-end relative">
   {/* Gradient shadow behind image */}
-  <div className="absolute inset-0 md:inset-x-60 w-80 h-80 inset-y-22 bg-gradient-to-tr from-[#7D0571] to-[#FA7F05] rounded-full blur-3xl opacity-50 z-0"></div>
+  <div className="absolute hidden md:block inset-0 md:inset-x-60 w-80 h-80 inset-y-22 bg-gradient-to-tr from-[#7D0571] to-[#FA7F05] rounded-full blur-3xl opacity-50 z-0"></div>
 
   {/* Hero image */}
   <img
