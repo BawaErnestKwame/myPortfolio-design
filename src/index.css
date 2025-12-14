@@ -5,3 +5,17 @@ body {
   font-family: 'Montserrat' ,sans-serif;
 }
 
+.heroimage {
+ animation-name: heroAnimation;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  
+}
+
+
+@keyframes heroAnimation {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
